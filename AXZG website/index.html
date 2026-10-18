@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#06131d">
+  <meta name="description" content="安行智构——面向复杂山地交通走廊，集数据管理、风险推演与应急决策于一体的软件平台。">
+  <title>安行智构｜交通风险推演与安全决策软件平台</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-progress" aria-hidden="true"><i></i></div>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="安行智构首页">
+      <img src="assets/logo-mark.svg" alt="">
+      <span>安行智构</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="打开导航" aria-expanded="false" data-nav-toggle><i></i><i></i></button>
+    <nav class="site-nav" data-nav>
+      <a href="#mission">项目定位</a>
+      <a href="#system">能力体系</a>
+      <a href="#applications">行业场景</a>
+      <a href="#validation">工程验证</a>
+      <a href="#results">成果价值</a>
+    </nav>
+    <a class="header-cta" href="#contact">项目合作 <span>↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-scenes" aria-hidden="true"><img class="hero-scene is-active" src="assets/08-application-scenes/deep-valley-road.webp" alt=""></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+
+      <div class="shell hero-layout">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow"><span></span> TRAFFIC RISK & SAFETY DECISION</p>
+          <h1 id="hero-title"><span>安行智构</span><br><em>让交通风险可见<br>让安全决策有据</em></h1>
+          <p class="hero-summary">面向复杂山地交通走廊，集数据管理、风险推演与应急决策于一体的软件平台。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">预约演示 <span>→</span></a>
+            <a class="button button-ghost" href="#system">了解产品 <span>↓</span></a>
+          </div>
+        </div>
+
+        <aside class="hero-console product-preview" data-reveal data-delay="160" aria-label="软件产品界面演示">
+          <div class="console-head">
+            <span><i></i> PRODUCT DEMO</span>
+            <b>安行智构软件平台</b>
+          </div>
+          <div class="product-preview-media">
+            <img class="product-demo-visual is-active" data-product-demo-visual="overview" src="assets/06-domestic-engine/operations-dashboard.webp" alt="安行智构走廊运营驾驶舱">
+            <img class="product-demo-visual" data-product-demo-visual="risk" src="assets/04-risk-simulation/risk-platform-map.webp" alt="风险推演平台界面" loading="lazy">
+            <img class="product-demo-visual" data-product-demo-visual="scene" src="assets/06-domestic-engine/digital-twin-editor.webp" alt="数字孪生场景编辑器" loading="lazy">
+            <span class="product-demo-label">真实软件与项目演示画面</span>
+          </div>
+          <div class="product-demo-tabs" role="tablist" aria-label="产品界面切换">
+            <button class="is-active" type="button" data-product-demo-button="overview"><span>01</span>数据总览</button>
+            <button type="button" data-product-demo-button="risk"><span>02</span>风险定位</button>
+            <button type="button" data-product-demo-button="scene"><span>03</span>场景管理</button>
+          </div>
+        </aside>
+      </div>
+
+      <div class="shell hero-bottom">
+        <div class="hero-metrics">
+          <div><strong data-counter="10000">0</strong><sup>+ km</sup><span>累计风险识别</span></div>
+          <div><strong data-counter="90">0</strong><sup>%+</sup><span>典型风险识别</span></div>
+          <div><strong data-counter="11">0</strong><sup>项</sup><span>专利成果</span></div>
+        </div>
+        <p class="hero-product-note">数据管理 · 风险推演 · 应急决策</p>
+      </div>
+    </section>
+
+    <section class="mission section-light" id="mission" aria-labelledby="mission-title">
+      <div class="shell section-heading" data-reveal>
+        <div>
+          <p class="section-index">01 / NATIONAL MISSION</p>
+          <h2 id="mission-title">生命保障通道<br><em>面对真实风险</em></h2>
+        </div>
+        <p class="section-lead">超级工程穿越高海拔、深切峡谷与长大纵坡。风险来自道路，也来自车辆、天气与突发灾害。</p>
+      </div>
+
+      <div class="shell mission-grid">
+        <figure class="region-map" data-reveal>
+          <img src="assets/01-hero-and-national/western-corridor-relief-map.webp" alt="西部交通走廊立体区位图">
+          <figcaption><span>服务区域</span><b>西部复杂山地交通走廊</b></figcaption>
+        </figure>
+        <div class="incident-stack">
+          <button class="incident-card" type="button" data-lightbox="assets/02-industry-pain/washed-out-bridge.webp" data-caption="水毁桥梁 · 通道中断" data-reveal>
+            <img src="assets/02-industry-pain/washed-out-bridge.webp" alt="水毁桥梁">
+            <span><small>灾害事故</small><b>水毁中断</b></span><i>↗</i>
+          </button>
+          <button class="incident-card" type="button" data-lightbox="assets/02-industry-pain/rockfall-road.webp" data-caption="落石灾害 · 道路阻断" data-reveal data-delay="80">
+            <img src="assets/02-industry-pain/rockfall-road.webp" alt="落石阻断道路">
+            <span><small>运行事故</small><b>落石阻断</b></span><i>↗</i>
+          </button>
+          <button class="incident-card" type="button" data-lightbox="assets/02-industry-pain/rainy-mountain-highway.webp" data-caption="恶劣天气 · 车辆运行风险" data-reveal data-delay="160">
+            <img src="assets/02-industry-pain/rainy-mountain-highway.webp" alt="雨天山地高速公路">
+            <span><small>环境风险</small><b>雨雾天气</b></span><i>↗</i>
+          </button>
+        </div>
+      </div>
+
+      <div class="shell bottleneck-row" data-reveal>
+        <div><span>01</span><b>数据断层</b><small>跨阶段资料难复用</small></div>
+        <div><span>02</span><b>风险滞后</b><small>从发现到处置链条长</small></div>
+        <div><span>03</span><b>场景缺失</b><small>极端工况难以复现</small></div>
+        <div><span>04</span><b>底座受限</b><small>专业引擎自主性不足</small></div>
+      </div>
+    </section>
+
+    <section class="identity" aria-labelledby="identity-title">
+      <div class="identity-media" aria-hidden="true"><img src="assets/08-application-scenes/deep-valley-road.webp" alt=""></div>
+      <div class="shell identity-layout">
+        <div class="identity-title" data-reveal>
+          <p class="section-index section-index-on-dark">02 / POSITIONING</p>
+          <h2 id="identity-title">安全走廊的<br><em>数据服务提供者</em></h2>
+        </div>
+        <div class="identity-copy" data-reveal data-delay="120">
+          <p>让分散的数据、图纸与现场记录进入同一套平台，服务资料检索、风险定位和方案比选。</p>
+          <div class="identity-tags"><span>多源资料一处检索</span><span>关键风险快速定位</span><span>处置方案对照比选</span><span>成果持续复用</span></div>
+          <div class="identity-scale"><i></i><span>数据归集</span><b>→</b><span>风险研判</span><b>→</b><span>辅助决策</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="system section-light" id="system" aria-labelledby="system-title">
+      <div class="shell section-heading" data-reveal>
+        <div>
+          <p class="section-index">03 / CAPABILITY SYSTEM</p>
+          <h2 id="system-title">从数据到决策<br><em>一体化协同</em></h2>
+        </div>
+        <p class="section-lead">同一套软件连接数据管理、风险研判、应急处置与场景恢复。</p>
+      </div>
+
+      <div class="shell system-rail" data-reveal>
+        <a href="#data-foundation"><span>01</span><b>多源数据<br>统一管理</b></a>
+        <i></i>
+        <a href="#risk-simulation"><span>02</span><b>提前研判<br>关键路段风险</b></a>
+        <i></i>
+        <a href="#control-engine"><span>03</span><b>应急决策<br>场景恢复</b></a>
+      </div>
+
+      <article class="capability-block data-foundation" id="data-foundation">
+        <div class="shell capability-heading" data-reveal>
+          <div><span class="cap-number">01</span><p>DATA MANAGEMENT</p></div>
+          <h3>多源数据<br><em>统一管理</em></h3>
+          <p>集中接入卫星、无人机、移动采集、事故记录和设计资料，按区域与任务统一组织。</p>
+        </div>
+
+        <div class="shell data-workbench" data-reveal>
+          <div class="data-stage">
+            <img class="data-visual is-active" data-data-visual="system" src="assets/03-data-foundation/multi-source-collection-system.webp" alt="多源数据采集体系">
+            <img class="data-visual" data-data-visual="tunnel" src="assets/03-data-foundation/tunnel-point-cloud.webp" alt="隧道点云采集动图" loading="lazy">
+            <img class="data-visual" data-data-visual="hazard" src="assets/03-data-foundation/landslide-recognition.webp" alt="无人机灾害识别动图" loading="lazy">
+            <img class="data-visual" data-data-visual="field" src="assets/03-data-foundation/field-road-survey.webp" alt="道路现场采集">
+            <div class="stage-corners" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+            <div class="stage-status"><span><i></i> DATA STREAM</span><b data-data-status>多源协同采集</b></div>
+          </div>
+          <div class="data-selector" role="tablist" aria-label="数据采集类型">
+            <button class="is-active" type="button" data-data-button="system" data-status="多源协同采集"><span>01</span><b>设备 + 平台</b><small>卫星 / 无人机 / 地面监测</small></button>
+            <button type="button" data-data-button="tunnel" data-status="隧道点云采集"><span>02</span><b>移动点云</b><small>激光雷达 / 惯导 / 全景影像</small></button>
+            <button type="button" data-data-button="hazard" data-status="灾害快速发现"><span>03</span><b>无人机巡检</b><small>广域发现 / 局部精查</small></button>
+            <button type="button" data-data-button="field" data-status="设计资料入库"><span>04</span><b>设计资料</b><small>BIM / 历史图纸 / 运营档案</small></button>
+          </div>
+        </div>
+
+        <div class="shell equipment-grid">
+          <article class="equipment-card" data-reveal>
+            <div><span>EQUIPMENT / 01</span><h4>多传感器集成</h4><p>激光雷达、惯导、全景相机。</p></div>
+            <img src="assets/03-data-foundation/lidar-integration-rig.webp" alt="多传感器集成设备">
+          </article>
+          <article class="equipment-card" data-reveal data-delay="80">
+            <div><span>EQUIPMENT / 02</span><h4>无人机侦测</h4><p>快速抵达，广域巡查。</p></div>
+            <img src="assets/03-data-foundation/inspection-drone.webp" alt="无人机侦测设备">
+          </article>
+          <article class="equipment-card field-card" data-reveal data-delay="160">
+            <div><span>FIELD / LONG-TERM</span><h4>持续在场</h4><p>现场采集、资料归档、周期更新。</p></div>
+            <img src="assets/03-data-foundation/field-team-visit.webp" alt="项目团队工程现场">
+          </article>
+        </div>
+      </article>
+
+      <article class="risk-simulation" id="risk-simulation">
+        <div class="risk-backdrop"><img src="assets/04-risk-simulation/aerial-road-track.webp" alt="山地道路轨迹推演" loading="lazy"></div>
+        <div class="risk-grid-overlay" aria-hidden="true"></div>
+        <div class="shell risk-layout">
+          <div class="risk-copy" data-reveal>
+            <div class="cap-label"><span class="cap-number cap-number-light">02</span><p>RISK SIMULATION</p></div>
+            <h3>提前研判<br><em>关键路段风险</em></h3>
+            <p>结合历史数据与专业模型，对大车、小车、天气和灾害条件进行场景推演。</p>
+            <div class="scenario-buttons" role="tablist" aria-label="风险场景">
+              <button class="is-active" type="button" data-risk-scenario="truck">大车</button>
+              <button type="button" data-risk-scenario="car">小车</button>
+              <button type="button" data-risk-scenario="weather">天气</button>
+              <button type="button" data-risk-scenario="disaster">灾害</button>
+            </div>
+            <div class="risk-sliders">
+              <label><span><b>环境扰动</b><output data-risk-output="environment">68</output></span><input type="range" min="0" max="100" value="68" data-risk-input="environment"></label>
+              <label><span><b>交通负荷</b><output data-risk-output="traffic">76</output></span><input type="range" min="0" max="100" value="76" data-risk-input="traffic"></label>
+              <label><span><b>道路条件</b><output data-risk-output="road">54</output></span><input type="range" min="0" max="100" value="54" data-risk-input="road"></label>
+            </div>
+            <p class="demo-note"><b>交互演示</b> 参数调节仅用于展示产品交互逻辑，实际风险结果由专业模型计算。</p>
+          </div>
+
+          <div class="risk-panel" data-reveal data-delay="140">
+            <div class="risk-panel-top"><span><i></i> INTERACTION DEMO</span><b data-risk-name>重载车辆下坡</b></div>
+            <div class="risk-main-view">
+              <img data-risk-image src="assets/04-risk-simulation/heavy-truck-scene.webp" alt="风险推演场景">
+              <div class="risk-scan" aria-hidden="true"></div>
+              <span class="risk-marker m1">K84+120</span><span class="risk-marker m2">BRAKE TEMP</span>
+            </div>
+            <div class="risk-readout">
+              <div class="risk-ring" data-risk-ring><strong data-risk-score>74</strong><span>演示指数</span></div>
+              <div class="risk-values">
+                <div><span>演示等级</span><b data-risk-level>Ⅲ级</b></div>
+                <div><span>场景条件</span><b data-risk-cause>重载 · 长下坡</b></div>
+                <div><span>策略示意</span><b class="orange" data-risk-action>限速 · 分流</b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="control-engine" id="control-engine">
+        <div class="shell capability-heading third-heading" data-reveal>
+          <div><span class="cap-number">03</span><p>DECISION / RECOVERY / REBUILD</p></div>
+          <h3>从风险研判<br><em>到应急决策</em></h3>
+          <p>将风险位置、影响范围和可选方案放在同一界面，支撑管控、比选与灾后恢复。</p>
+        </div>
+
+        <div class="shell product-tabs" role="tablist" aria-label="第三部分能力切换" data-reveal>
+          <button class="is-active" type="button" data-product-button="control"><span>01</span><b>应急处置</b><small>预警 · 管控 · 灾后恢复</small></button>
+          <button type="button" data-product-button="engine"><span>02</span><b>方案比选</b><small>范围 · 时序 · 资源配置</small></button>
+          <button type="button" data-product-button="rebuild"><span>03</span><b>场景重建</b><small>生成 · 修复 · 重现</small></button>
+        </div>
+
+        <div class="shell product-stage" data-reveal>
+          <section class="product-panel is-active" data-product-panel="control">
+            <div class="product-media">
+              <img src="assets/05-safety-control/bridge-recovery-simulation.webp" alt="桥梁重建与修复方案仿真" loading="lazy">
+              <div class="engine-hud"><span>RECOVERY PLAN / 03</span><b>桥梁修复方案</b><small>结构检测完成 · 方案比选中</small></div>
+            </div>
+            <div class="product-copy">
+              <p class="product-kicker">EMERGENCY RESPONSE</p><h4>通道受损后，<br>快速组织处置。</h4>
+              <ul><li><span>01</span>定位损毁位置与影响范围</li><li><span>02</span>生成交通管控与绕行建议</li><li><span>03</span>衔接抢通和恢复任务</li></ul>
+              <div class="product-tags"><span>风险定位</span><span>交通管控</span><span>灾后恢复</span></div>
+            </div>
+          </section>
+
+          <section class="product-panel" data-product-panel="engine" hidden>
+            <div class="product-media">
+              <img src="assets/05-safety-control/emergency-response-plan.webp" alt="应急处置方案对照" loading="lazy">
+              <div class="engine-hud"><span>PLAN COMPARISON / DEMO</span><b>应急方案比选</b><small>影响范围 · 处置路径 · 恢复时序</small></div>
+            </div>
+            <div class="product-copy">
+              <p class="product-kicker">PLAN COMPARISON</p><h4>多套方案，<br>放在同一界面比较。</h4>
+              <ul><li><span>01</span>对照不同处置范围与路径</li><li><span>02</span>比较恢复时序和资源需求</li><li><span>03</span>记录方案依据与决策结果</li></ul>
+              <div class="product-tags"><span>多方案</span><span>时序对照</span><span>决策留痕</span></div>
+            </div>
+          </section>
+
+          <section class="product-panel" data-product-panel="rebuild" hidden>
+            <div class="product-media">
+              <img src="assets/07-scene-reconstruction/terrain-scene-rebuild.webp" alt="实景三维地形快速重建" loading="lazy">
+              <div class="engine-hud"><span>SCENE REBUILD / LIVE</span><b>灾后场景重建</b><small>地形加载 · 资产映射 · 方案生成</small></div>
+            </div>
+            <div class="product-copy">
+              <p class="product-kicker">SCENE RECONSTRUCTION</p><h4>资料持续积累，<br>场景快速生成。</h4>
+              <ul><li><span>01</span>设计资料驱动模型生成</li><li><span>02</span>损毁场景快速复现</li><li><span>03</span>恢复方案可视化验证</li></ul>
+              <div class="product-tags"><span>图形引擎</span><span>快速生成</span><span>可修复 · 可重现</span></div>
+            </div>
+          </section>
+        </div>
+
+        <div class="shell engine-advantage" data-reveal>
+          <div class="engine-advantage-media"><img src="assets/06-domestic-engine/road-bim-engine.webp" alt="国产道路 BIM 图形引擎" loading="lazy"><span>项目演示画面</span></div>
+          <div class="engine-advantage-copy"><p class="section-index">DOMESTIC TECHNOLOGY</p><h4>国产化技术底座</h4><p>以国产图形引擎承载道路、地形、资产和风险场景，支持功能模块持续接入与行业应用扩展。</p><div><span>自主可控</span><span>模块化能力</span><span>开放扩展</span></div></div>
+        </div>
+
+        <div class="shell resilience-flow" data-reveal>
+          <div><span>01</span><b>发现损毁</b><small>遥感 / 无人机 / 现场</small></div><i>→</i>
+          <div><span>02</span><b>场景复现</b><small>数据与设计资料</small></div><i>→</i>
+          <div><span>03</span><b>方案推演</b><small>多方案时序比选</small></div><i>→</i>
+          <div><span>04</span><b>恢复通行</b><small>应急管控与重建</small></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="applications" id="applications" aria-labelledby="applications-title">
+      <div class="shell section-heading section-heading-dark" data-reveal>
+        <div><p class="section-index section-index-on-dark">04 / APPLICATIONS</p><h2 id="applications-title">面向真实场景<br><em>持续扩展</em></h2></div>
+        <p class="section-lead">从日常运营到极端灾害，覆盖西部山地交通走廊的关键工况。</p>
+      </div>
+      <div class="shell application-carousel" data-reveal>
+        <div class="application-track" data-application-track>
+          <article class="application-card is-active" data-application-card>
+            <img src="assets/08-application-scenes/tunnel-bridge-mountain.webp" alt="高山隧桥群">
+            <div><span>01 / OPERATIONS</span><h3>日常运营保障</h3><p>隧桥群资产监测与通行态势。</p></div>
+          </article>
+          <article class="application-card" data-application-card>
+            <img src="assets/08-application-scenes/plateau-highway.webp" alt="高原高速公路">
+            <div><span>02 / WEATHER</span><h3>极端天气识别</h3><p>高海拔、低温与低能见度条件。</p></div>
+          </article>
+          <article class="application-card" data-application-card>
+            <img src="assets/02-industry-pain/landslide-road-collapse.webp" alt="滑坡冲毁道路">
+            <div><span>03 / RECOVERY</span><h3>灾后通道恢复</h3><p>损毁复现与修复方案推演。</p></div>
+          </article>
+          <article class="application-card" data-application-card>
+            <img src="assets/08-application-scenes/gorge-bridge.webp" alt="峡谷大桥">
+            <div><span>04 / STRATEGY</span><h3>战略通道保障</h3><p>生命通道与物资供应底线。</p></div>
+          </article>
+        </div>
+        <div class="application-controls"><button type="button" data-app-prev aria-label="上一个场景">←</button><span data-app-index>01</span><i></i><span>04</span><button type="button" data-app-next aria-label="下一个场景">→</button></div>
+      </div>
+    </section>
+
+    <section class="validation section-light" id="validation" aria-labelledby="validation-title">
+      <div class="shell section-heading" data-reveal>
+        <div><p class="section-index">05 / FIELD PROOF</p><h2 id="validation-title">来自现场的<br><em>工程验证</em></h2></div>
+        <p class="section-lead">真实设备、真实数据、真实应用。让平台能力落到工程流程。</p>
+      </div>
+
+      <div class="shell validation-grid">
+        <button class="validation-card validation-main" type="button" data-lightbox="assets/03-data-foundation/lidar-integration-rig.webp" data-caption="多传感器集成设备" data-reveal>
+          <img src="assets/03-data-foundation/lidar-integration-rig.webp" alt="多传感器集成设备">
+          <span><small>EQUIPMENT</small><b>多传感器集成设备</b></span><i>↗</i>
+        </button>
+        <button class="validation-card" type="button" data-lightbox="assets/09-validation-results/regional-damage-map.webp" data-caption="区域损毁识别结果" data-reveal data-delay="60">
+          <img src="assets/09-validation-results/regional-damage-map.webp" alt="区域损毁识别结果">
+          <span><small>DETECTION</small><b>区域损毁识别</b></span><i>↗</i>
+        </button>
+        <button class="validation-card" type="button" data-lightbox="assets/09-validation-results/road-damage-detail.webp" data-caption="道路损毁细节" data-reveal data-delay="120">
+          <img src="assets/09-validation-results/road-damage-detail.webp" alt="道路损毁细节">
+          <span><small>DETAIL</small><b>道路损毁细节</b></span><i>↗</i>
+        </button>
+        <button class="validation-card validation-wide" type="button" data-lightbox="assets/10-team-partners-media/underground-interchange-visit.webp" data-caption="地下工程现场踏勘" data-reveal data-delay="180">
+          <img src="assets/10-team-partners-media/underground-interchange-visit.webp" alt="地下工程现场踏勘">
+          <span><small>FIELD</small><b>地下工程现场踏勘</b></span><i>↗</i>
+        </button>
+      </div>
+
+      <div class="shell proof-row" data-reveal>
+        <div class="proof-copy"><p class="section-index">APPLICATION PROOF</p><h3>从装备验证到<br>平台应用</h3><span>证明材料仅作项目成果展示，正式发布前应完成授权与脱敏审核。</span></div>
+        <div class="proof-documents">
+          <button type="button" data-lightbox="assets/09-validation-results/equipment-application-proof.webp" data-caption="装备应用证明"><img src="assets/09-validation-results/equipment-application-proof.webp" alt="装备应用证明"><span>装备验证</span></button>
+          <button type="button" data-lightbox="assets/09-validation-results/software-application-proof.webp" data-caption="软件应用证明"><img src="assets/09-validation-results/software-application-proof.webp" alt="软件应用证明"><span>软件验证</span></button>
+          <button type="button" data-lightbox="assets/09-validation-results/tunnel-application-proof.webp" data-caption="隧道应用证明"><img src="assets/09-validation-results/tunnel-application-proof.webp" alt="隧道应用证明"><span>隧道应用</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="results" id="results" aria-labelledby="results-title">
+      <div class="results-bg"><img src="assets/01-hero-and-national/river-canyon-viaduct.webp" alt=""></div>
+      <div class="shell results-layout">
+        <div data-reveal>
+          <p class="section-index section-index-on-dark">06 / RESULTS & VALUE</p>
+          <h2 id="results-title">成果沉淀<br><em>走向产品化</em></h2>
+        </div>
+        <div class="result-metrics" data-reveal data-delay="100">
+          <div><strong data-counter="11">0</strong><sup>项</sup><span>专利成果</span></div>
+          <div><strong data-counter="10000">0</strong><sup>+ km</sup><span>累计风险识别</span></div>
+          <div><strong>&lt;3</strong><sup>s</sup><span>移动侦测延时</span></div>
+          <div><strong data-counter="90">0</strong><sup>%+</sup><span>典型风险识别</span></div>
+        </div>
+        <div class="value-grid" data-reveal data-delay="180">
+          <article><span>01</span><h3>行业</h3><p>建立复杂山地交通安全数据底座。</p></article>
+          <article><span>02</span><h3>西部</h3><p>服务高海拔、深峡谷与长大纵坡走廊。</p></article>
+          <article><span>03</span><h3>安全</h3><p>形成灾前、灾中、灾后的闭环能力。</p></article>
+          <article><span>04</span><h3>战略</h3><p>守住生命通道与物资供应底线。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="team section-light" aria-labelledby="team-title">
+      <div class="shell section-heading" data-reveal>
+        <div><p class="section-index">07 / TEAM & PARTNERS</p><h2 id="team-title">长期在场的<br><em>工程团队</em></h2></div>
+        <p class="section-lead">校企协同、现场验证与学生培养同步推进。</p>
+      </div>
+      <div class="shell team-grid" data-reveal>
+        <figure><img src="assets/10-team-partners-media/enterprise-meeting.webp" alt="企业项目会议"><figcaption><span>企业协同</span><b>需求共研</b></figcaption></figure>
+        <figure><img src="assets/10-team-partners-media/team-seminar.webp" alt="团队研讨"><figcaption><span>工程团队</span><b>方案研讨</b></figcaption></figure>
+        <figure><img src="assets/10-team-partners-media/control-room-teaching.webp" alt="监控与教学现场"><figcaption><span>产教育人</span><b>平台实践</b></figcaption></figure>
+        <figure><img src="assets/10-team-partners-media/test-field-aerial.webp" alt="道路试验场"><figcaption><span>平台支撑</span><b>道路试验场</b></figcaption></figure>
+      </div>
+      <div class="shell media-strip" data-reveal>
+        <div><img src="assets/10-team-partners-media/cctv-project-coverage.webp" alt="央视工程报道"><span>工程报道</span></div>
+        <div><img src="assets/10-team-partners-media/cctv-corridor-coverage.webp" alt="央视走廊报道"><span>行业关注</span></div>
+        <div><img src="assets/10-team-partners-media/media-interview.webp" alt="项目采访"><span>项目传播</span></div>
+        <p><b>真实场景</b><b>真实工程</b><b>真实团队</b></p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-bg" aria-hidden="true"></div>
+      <div class="shell contact-inner" data-reveal>
+        <p class="section-index section-index-on-dark">BUILD A SAFER CORRIDOR</p>
+        <h2 id="contact-title">让每一处损毁<br><em>都有最快恢复方案</em></h2>
+        <div class="contact-actions"><a class="button button-primary" href="mailto:anxing@xxx.edu.cn">项目合作 <span>↗</span></a><a class="button button-ghost" href="#top">返回顶部 <span>↑</span></a></div>
+        <div class="contact-meta"><span>长安大学 · 安行智构创新团队</span><span>交通基础设施安全 / 数字孪生 / 国产化平台</span><span>中国 · 西部</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell"><a class="brand" href="#top"><img src="assets/logo-mark.svg" alt=""><span>安行智构</span></a><p>数据赋能安全走廊 · 科技守护美好出行</p><span>© 2026 AX STRUCTURE</span></div>
+  </footer>
+
+  <dialog class="lightbox" data-lightbox-dialog>
+    <button type="button" aria-label="关闭" data-lightbox-close>×</button>
+    <figure><img src="" alt=""><figcaption></figcaption></figure>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
